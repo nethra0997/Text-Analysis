@@ -6,15 +6,23 @@ Libraries used include pandas, plotly.express, WordCloud, matplotlib.pyplot, Tex
 Essential imports are shown for handling data manipulation, visualization, sentiment analysis, natural language processing, and topic modeling.
 
 ## Data Loading:
-The notebook loads a CSV file named "articles.csv" and prints the first few rows of the dataset.
+The notebook uses a CSV file named "articles.csv" 
 
 ## Word Cloud Creation:
 Titles from the articles are combined into a single string.
-A WordCloud object is created and visualized using plotly.express.
+Created a WordCloud object and visualized using plotly.express.
 
 ## Sentiment Analysis:
-Sentiment polarity is calculated for each article using TextBlob.
-A histogram is created to display the distribution of sentiment scores across the articles.
+Calculated the sentiment polarity for each article using TextBlob.
+Created a histogram to display the distribution of sentiment scores across the articles.
 
 ## Named Entity Recognition (NER):
 Placeholder for NER function, indicating further processing of text to extract named entities using spaCy.
+
+
+# Usage:
+Modify the code to use your own dataset or to extend the analysis.
+Explore different visualization techniques and text processing methods.
+# Visualizations:
+Word Cloud of Article Titles
+Histogram of Sentiment Scores
